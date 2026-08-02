@@ -27,7 +27,7 @@ export default function ProjectCTA() {
            LET'S BUILD SOMETHING AMAZING
           </div>
 
-              <h2 className="mt-8 text-5xl font-bold leading-tight text-slate-900 md:text-5xl">
+              <h2 className="mt-8 text-3xl font-bold leading-tight text-slate-900 md:text-5xl">
                 Ready to Build Something
                 <br/>
             
@@ -36,7 +36,7 @@ export default function ProjectCTA() {
                 </span>
               </h2>
 
-              <p className="mx-auto mt-8 max-w-2xl text-lg leading-5 text-slate-600">
+              <p className="mx-auto mt-8 max-w-2xl text-md leading-5 text-slate-600">
                 Transform your vision into a premium digital experience that attracts customers, builds trust, and helps your business grow.
               </p>
 

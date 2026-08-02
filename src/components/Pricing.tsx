@@ -67,7 +67,7 @@ export default function PricingSection() {
 
         {/* Heading */}
 
-        <h2 className="mx-auto mt-10 max-w-5xl text-center text-4xl font-bold leading-tight text-[#F5EFEB]">
+        <h2 className="mx-auto mt-10 max-w-5xl text-center text-3xl md:text-4xl font-bold leading-tight text-[#F5EFEB]">
 
           Premium Quality.
 

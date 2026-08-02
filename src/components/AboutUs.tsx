@@ -44,14 +44,14 @@ export default function AboutPage() {
 
           <div>
 
-            <div className="flex justify-left -mt-20">
+            <div className="flex justify-left md:-mt-20">
         <div className="inline-flex mb-16 items-center gap-2 rounded-full border border-light/10 bg-light/[0.03] px-3 py-1.5 font-mono text-[11px] tracking-wide text-light/60">
             <Circle size={6} fill="#ff6b2c" color="#ff6b2c" />
             ABOUT ATNEXUS
            </div>
           </div>
 
-             <h2 className="mx-auto  max-w-5xl  text-5xl font-bold text-[#F5EFEB]">
+             <h2 className="mx-auto  max-w-5xl  text-3xl lg:text-5xl font-bold text-[#F5EFEB]">
 
           Building Digital   {" "}
 
@@ -93,7 +93,7 @@ export default function AboutPage() {
             </Link>
 
             {/* TRUST BADGES */}
-             <div className=" absolute top-20% flex flex-wrap items-center gap-6 mt-20 font-mono  text-xs text-light/40">
+             <div className=" hidden absolute top-20% md:flex flex-wrap items-center gap-6 mt-20 font-mono  text-xs text-light/40">
             <span className="flex items-center gap-1.5">
                <Circle size={6} fill="#34d399" color="#34d399" />
               Performance First
@@ -113,10 +113,10 @@ export default function AboutPage() {
 
           {/* RIGHT */}
 
-          <div className="relative h-[420px]">
+          <div className="relative h-auto md:h-[420px]">
 
 
-              <div className="absolute top-20 h-60 w-60 rounded-full bg-primary/50 blur-[120px]" />
+              <div className="absolute md:top-20 md:h-60 md:w-60 rounded-full bg-primary/50 blur-[120px] px-10" />
 
               <div className="relative overflow-hidden rounded-[20px] border border-white/10 bg- p-10 backdrop-blur-2xl shadow-[0_5px_10px_rgba(255,107,44,0.5)]">
 
@@ -124,7 +124,7 @@ export default function AboutPage() {
 
                   <div className="flex items-start gap-5">
 
-                    <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-2xl">
+                    <div className="flex h-10 w-14 md:h-14 md:w-14 items-center justify-center rounded-2xl bg-primary/10 text-1xl md:text-2xl">
                       🚀
                     </div>
 
@@ -147,7 +147,7 @@ export default function AboutPage() {
 
                   <div className="flex items-start gap-5">
 
-                    <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-2xl">
+                    <div className="flex h-10 w-14 md:h-14 md:w-14 items-center justify-center rounded-2xl bg-primary/10 text-1xl md:text-2xl">
                       ⚡
                     </div>
 
@@ -170,7 +170,7 @@ export default function AboutPage() {
 
                   <div className="flex items-start gap-5">
 
-                    <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-2xl">
+                    <div className="flex h-10 w-14 md:h-14 md:w-14 items-center justify-center rounded-2xl bg-primary/10 text-1xl md:text-2xl">
                       🤝
                     </div>
 
@@ -222,7 +222,7 @@ export default function AboutPage() {
 
       
 
-              <h2 className=" text-5xl -mt-20 font-black leading-tight text-dark md:text-5xl">
+              <h2 className=" text-3xl md:text-4xl md:-mt-20 font-black leading-tight text-dark ">
                 Where  {" "}
 
            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">

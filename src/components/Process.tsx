@@ -104,7 +104,7 @@ export default function ProcessSteps() {
          </p>
 
 
-      <div className="max-w-6xl mx-auto flex items-start justify-center">
+       <div className=" hidden max-w-6xl mx-auto lg:flex items-start justify-center">
         {steps.map((step, i) => {
           const Icon = step.icon;
           return (
@@ -150,7 +150,7 @@ export default function ProcessSteps() {
 
               {i < steps.length - 1 && (
                 <div className="mt-[58px] mx-[-6px]">
-                  <img src ="/projectimages/processArrow.png"
+                  <img src ="/projectimages/ProcessArrow.png"
                   className="w-16 h-auto  " />
                   
                 </div>
@@ -159,6 +159,70 @@ export default function ProcessSteps() {
           );
         })}
       </div>
+
+
+      {/* ================= MOBILE PROCESS ================= */}
+
+<div className="mx-auto mt-12 flex max-w-md flex-col gap-8 lg:hidden">
+
+  {steps.map((step, i) => {
+    const Icon = step.icon;
+
+    return (
+      <div key={step.title} className="relative">
+
+        {/* Connector */}
+
+        {i !== steps.length  && (
+          <div className="absolute left-[30px] top-20 h-[calc(100%+28px)] w-px bg-gradient-to-b from-primary via-primary/40 to-transparent" />
+        )}
+
+        <div className="flex gap-5">
+
+          {/* Pill */}
+
+          <div className="relative flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-primary to-accent shadow-[0_10px_25px_rgba(255,107,44,0.45)]">
+
+            <span className="absolute -top-2 -right-2 flex h-8 w-8 items-center justify-center rounded-full bg-dark text-[20px] font-bold text-primary border border-primary">
+              {step.number}
+            </span>
+
+            <Icon size={26} color="#fff" />
+
+          </div>
+
+          {/* Card */}
+
+          <div className="flex-1 mt-16 -ml-5 rounded-3xl backdrop-blur-xl">
+
+            <h3 className="text-xl font-semibold text-light">
+              {step.title}
+            </h3>
+
+            <div className="mt-4 space-y-3">
+
+              {step.items.map((item) => (
+                <div
+                  key={item}
+                  className="flex items-center gap-3 text-sm text-light/65"
+                >
+                  <span className="h-2 w-2 rounded-full bg-primary" />
+
+                  {item}
+                </div>
+              ))}
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    );
+  })}
+
+</div>
     </section>
   );
 }

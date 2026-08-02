@@ -50,7 +50,7 @@ export default function TechStack(){
            MODULAR ARCHITECTURE
           </div>
 
-<h2 className="mt-6 text-4xl font-bold text-[black]">Building with <span className="bg-gradient-to-r from-[#ff6b2c] to-[#F3A953] bg-clip-text text-transparent">Premium Technologies</span></h2>
+<h2 className="mt-6 text-3xl lg:text-4xl font-bold text-[black]">Building with <span className="bg-gradient-to-r from-[#ff6b2c] to-[#F3A953] bg-clip-text text-transparent">Premium Technologies</span></h2>
 <p className="mt-3 text-[black] max-w-2xl mx-auto">Modern enterprise technologies powering high-performance applications.</p>
 </div>
 

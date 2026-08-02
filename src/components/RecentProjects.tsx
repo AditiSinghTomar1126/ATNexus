@@ -111,7 +111,7 @@ export default function RecentWork() {
           RECENT PROJECTS
           </div>
 
-          <h2 className="mt-6 text-4xl font-bold text-[#191412]">
+          <h2 className="mt-6 text-3xl lg:text-4xl font-bold text-[#191412]">
            Recent work we love
           </h2>
 

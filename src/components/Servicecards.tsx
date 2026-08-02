@@ -55,7 +55,7 @@ export default function ServicesCards() {
           </div>
           </div>
 
-          <h3 className="mx-auto mt-10 mb-10 max-w-6xl text-center text-2xl font-bold  text-[#F5EFEB] lg:text-4xl">
+          <h3 className="mx-auto mt-10 mb-10 max-w-6xl text-center text-3xl font-bold  text-[#F5EFEB] lg:text-4xl">
 
             Digital Products
 
@@ -80,7 +80,7 @@ export default function ServicesCards() {
 
         </div>
 
-      <div className="mx-auto grid max-w-[1350px] lg:grid-cols-3 gap-7">
+      <div className="mx-auto grid max-w-[1350px] lg:grid-cols-3 gap-7 px-4 lg:px-0 md:px:-0">
 
         {services.map((service) => {
 

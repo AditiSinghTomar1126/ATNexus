@@ -126,19 +126,19 @@ const featured =
 
       {/* HERO */}
 
-      <div className="mx-auto max-w-[1300px] px-16 py-28">
+      <div className="mx-auto max-w-[1300px] p-16 md:py-28">
 
         <div className="absolute -left-12 top-0 h-[220px] w-[220px] rounded-full bg-primary/20 blur-[100px]" />
 
-        <div className="absolute -right-24 bottom-0 h-[360px] w-[360px] rounded-full bg-primary/20 blur-[100px]" />
+       
 <div className="flex justify-center">
-        <div className="inline-flex mb-16 mt-10 items-center gap-2 rounded-full border border-light/10 bg-light/[0.03] px-3 py-1.5 font-mono text-[11px] tracking-wide text-light/60">
+        <div className="inline-flex md:mb-16 my-10 items-center gap-2 rounded-full border border-light/10 bg-light/[0.03] px-3 py-1.5 font-mono text-[11px] tracking-wide text-light/60">
             <Circle size={6} fill="#ff6b2c" color="#ff6b2c" />
            RECENT WORK
           </div>
           </div>
 
-        <h2 className="mx-auto  max-w-5xl text-center text-5xl font-bold text-[#F5EFEB]">
+        <h2 className="mx-auto  max-w-5xl text-center text-3xl md:text-5xl font-bold text-[#F5EFEB]">
 
           Built for  {" "}
 
@@ -168,24 +168,24 @@ Every project reflects our commitment to thoughtful design, scalable engineering
         </p>
         {/* Premium Stats */}
 
-<div className="mt-20 px-28 grid grid-cols-2 gap-8 sm:grid-cols-4">
+<div className="hidden mt-20 px-28 md:grid grid-cols-2 gap-8 sm:grid-cols-4">
 
-  <div className="group rounded-2xl border border-white/10 bg-background p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-primary/40">
+  <div className="group rounded-2xl bg-gradient-to-t from-primary/5 to-transparent p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-primary">
     <h3 className="text-3xl font-bold text-text">150+</h3>
     <p className="mt-2 text-sm text-text/60">Projects Delivered</p>
   </div>
 
-  <div className="group rounded-2xl border border-white/10 bg-background p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-primary/40">
+  <div className="group rounded-2xl bg-gradient-to-t from-primary/5 to-transparent  p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-primary/40">
     <h3 className="text-3xl font-bold text-text">98%</h3>
     <p className="mt-2 text-sm text-text/60">Client Satisfaction</p>
   </div>
 
-  <div className="group rounded-2xl border border-white/10 bg-background p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-primary/40">
+  <div className="group rounded-2xl bg-gradient-to-t from-primary/5 to-transparent p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-primary/40">
     <h3 className="text-3xl font-bold text-text">4+</h3>
     <p className="mt-2 text-sm text-text/60">Years Experience</p>
   </div>
 
-  <div className="group rounded-2xl border border-white/10 bg-background p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-primary/40">
+  <div className="group rounded-2xl bg-gradient-to-t from-primary/5 to-transparent p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-primary/40">
     <h3 className="text-3xl font-bold text-text">24/7</h3>
     <p className="mt-2 text-sm text-text/60">Premium Support</p>
   </div>
@@ -196,13 +196,13 @@ Every project reflects our commitment to thoughtful design, scalable engineering
 
      
 
-      <div className=" py-24">
+      <div className=" md:py-24">
       
 
         <div className="mx-auto max-w-[1300px] px-8">
  <div className="mb-12  ">
 
-          <h2 className=" text-3xl font-bold text-light">
+          <h2 className=" text-2xl md:text-3xl font-bold text-light">
            What We've Built
           </h2>
           
@@ -299,7 +299,7 @@ Every project reflects our commitment to thoughtful design, scalable engineering
                   <img
                     src={featured.desktop}
                     alt={featured.title}
-                    className="h-[420px] w-full object-cover transition duration-700 group-hover:scale-105"
+                    className="h-[180px] md:h-[420px] w-full object-cover transition duration-700 group-hover:scale-105"
                   />
    
                     <div className="absolute bottom-4 left-4">
@@ -365,7 +365,7 @@ Every project reflects our commitment to thoughtful design, scalable engineering
 
           {/* PROJECT GRID */}
 
-          <div className="mt-5 grid gap-3 lg:grid-cols-4">
+          <div className="mt-5 grid gap-3  grid-cols-2 lg:grid-cols-4">
 
             {filtered.slice(1).map((project,index) => (
 
@@ -382,12 +382,12 @@ Every project reflects our commitment to thoughtful design, scalable engineering
                 <img
                   src={project.desktop}
                   alt={project.title}
-                  className="h-[200px] w-full object-cover transition duration-700 group-hover:scale-105"
+                  className=" md:h-[200px] w-full object-cover transition duration-700 group-hover:scale-105"
                 />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
 
-                <button className="absolute  right-6 top-6 flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#191412] transition hover:scale-105">
+                <button className="hidden absolute  right-6 top-6 md:flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#191412] transition hover:scale-105">
 
                   <ArrowUpRight size={18} />
 
@@ -395,7 +395,7 @@ Every project reflects our commitment to thoughtful design, scalable engineering
 
                 <div className="absolute bottom-4 left-4">
 
-                  <h4 className="text-2xl font-bold text-white">
+                  <h4 className="text-md md:text-2xl font-bold text-white">
 
                     {project.title}
 

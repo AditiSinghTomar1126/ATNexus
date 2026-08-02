@@ -58,7 +58,7 @@ export default function ServicesSection() {
           </div>
           </div>
 
-          <h1 className="mx-auto mt-6 max-w-6xl text-center text-6xl  font-bold leading-[1.08] text-[#F5EFEB] lg:text-5xl">
+          <h1 className="mx-auto mt-6 max-w-6xl text-center text-3xl  font-bold leading-[1.08] text-[#F5EFEB] lg:text-5xl">
 
             Digital Products
 
@@ -78,7 +78,7 @@ export default function ServicesSection() {
 
           </h1>
 
-          <p className="mx-auto mt-8 max-w-3xl text-center text-lg leading-5 text-[#B8AEA7]">
+          <p className="mx-auto mt-8 max-w-3xl text-center text-md leading-5 text-[#B8AEA7]">
 
             We build modern software ecosystems combining premium UI,
             enterprise architecture and scalable technologies to help

@@ -25,5 +25,7 @@ Thumbs.db
 .vercel/
 
 *.local
+
 .next/
+.next
 out 
