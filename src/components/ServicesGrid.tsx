@@ -86,9 +86,9 @@ export default function ServicesSection() {
 
           </p>
 
-          <div className="mt-14 flex justify-center gap-5">
+          <div className="mt-14 flex justify-center gap-5 flex-wrap ">
 
-            <button className="flex items-center gap-3 rounded-full bg-primary px-5 py-0 font-semibold text-white transition duration-300 hover:scale-105">
+            <button className="flex items-center gap-3 rounded-full bg-primary px-5 py-3 font-semibold text-white transition duration-300 hover:scale-105">
 
              <a href="/contact"> Start a project </a>
 

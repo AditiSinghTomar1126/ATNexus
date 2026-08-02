@@ -143,7 +143,7 @@ export default function Hero() {
 
         <div
           className="h-full w-full"
-          style={{
+          style={{ 
             backgroundImage: `
              linear-gradient(rgba(255,107,44,.4) 1px,transparent 1px),
              linear-gradient(90deg,rgba(255,107,44,.4) 1px,transparent 1px)
@@ -157,8 +157,8 @@ export default function Hero() {
       {/* Orange Glow */}
 
       <div
-        className="absolute left-10 top-1/4 h-[270px] w-[270px] -translate-y-1/2 rounded-full blur-[150px]"
-        style={{
+        className="absolute left-10 top-1/4 h-[70px] w-[70px]  md:h-[270px] md:w-[270px] -translate-y-1/2 rounded-full  blur-[70px] md:blur-[150px]"
+        style={{ 
           background:
             "radial-gradient(circle, rgba(241, 95, 17, 0.8), transparent 80%)",
         }}
@@ -172,12 +172,12 @@ export default function Hero() {
 <div className="w-full lg:w-[42%] px-5 lg:-mt-44 lg:ml-10">
 
   {/* Badge */}
-
-  <div className="inline-flex items-center gap-2 md:mt-10 rounded-full border border-light/10 bg-light/[0.03] px-3 py-1.5 font-mono text-[11px] tracking-wide text-light/60 lg:mb-2">
+<div className="flex justify-center md:justify-start">
+  <div className="inline-flex items-center gap-2 mt-10 rounded-full border border-light/10 bg-light/[0.03] px-3 py-1.5 font-mono text-[11px] tracking-wide text-light/60 lg:mb-2">
     <Circle size={6} fill="#ff6b2c" color="#ff6b2c" />
     INTRODUCING ATNEXUS TECH
-  </div>
-
+  </div>  
+</div>
   {/* Heading */}
 
   <h1 className="mt-8 text-center text-4xl font-black leading-[1.15] tracking-tight text-light  lg:mt-10 lg:text-left lg:text-5xl">
@@ -213,7 +213,7 @@ export default function Hero() {
 
   {/* CTA */}
 
-  <div className=" mb-20 mt-5 md:my-16 flex justify-center lg:justify-start">
+  <div className=" mb-28 mt-5 md:my-16 flex justify-center lg:justify-start">
 
     <Link
       href="/contact"

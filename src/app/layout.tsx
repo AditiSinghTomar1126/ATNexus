@@ -15,7 +15,7 @@ import Navbar from "@/components/Navbar";
 import StartProject from "@/components/StartProject";
 
 import Footer from "@/components/Footer";
-
+import Whatsapp from "@/components/Whatsapp";
 export const metadata: Metadata = {
 
   title: "AtNexus Tech",
@@ -42,6 +42,7 @@ export default function RootLayout({
        
         <StartProject/>
         <Footer />
+        <Whatsapp/>
       </body>
     </html>
   );

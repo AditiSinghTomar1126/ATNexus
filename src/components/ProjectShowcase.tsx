@@ -138,7 +138,7 @@ const featured =
           </div>
           </div>
 
-        <h2 className="mx-auto  max-w-5xl text-center text-3xl md:text-5xl font-bold text-[#F5EFEB]">
+        <h2 className="mx-auto  max-w-7xl text-center text-3xl md:text-5xl font-bold text-[#F5EFEB]">
 
           Built for  {" "}
 

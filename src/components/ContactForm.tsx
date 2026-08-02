@@ -113,11 +113,11 @@ export default function ContactSection() {
          </p>
 
 
-      <div className="mx-auto grid max-w-[1400px] gap-4 px-8 lg:grid-cols-[500px_1fr]">
+      <div className=" mx-auto grid max-w-[1400px]   gap-8 px-4 lg:grid-cols-[500px_1fr]">
 
         {/* LEFT PANEL */}
 
-        <div className=" rounded-[20px] bg-gradient-to-b from-primary/10 to-background p-10 text-[#F5EFEB] ">
+        <div className=" rounded-[20px] bg-gradient-to-b from-primary/10 to-background p-6 md:p-10 text-[#F5EFEB] ">
                  
 
           <span className="font-mono text-xs tracking-[.3em] text-[#F3A953]">
@@ -296,7 +296,7 @@ export default function ContactSection() {
 
         <form
           onSubmit={handleSubmit}
-          className="rounded-[20px] bg-[#FAF8F6] p-10"
+          className="rounded-[20px] bg-[#FAF8F6] p-6 md:p-10"
         >
           <h3 className="text-2xl font-bold text-[#191412]">
 

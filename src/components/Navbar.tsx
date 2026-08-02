@@ -62,9 +62,9 @@ export default function Navbar() {
           <Image
             src="/logo.svg"
             alt="ATNexus"
-            width={220}
-            height={60}
-            className="-ml-2 -mt-2 w-[180px] lg:w-[240px]"
+            width={240}
+            height={20}
+            className="-ml-8 md:-ml-2 -mt-2 w-[220px] lg:w-[240px]"
           />
         </Link>
         {/* Desktop Navigation */}
