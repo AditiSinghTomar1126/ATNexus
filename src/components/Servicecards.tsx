@@ -93,7 +93,7 @@ export default function ServicesCards() {
 
 
               
-              className="group flex h-full flex-col rounded-[30px] border border-white/5  bg-background/10 p-8 backdrop-blur-4xl shadow-[0_5px_10px_rgba(255,107,44,0.5)] transition-all duration-500 hover:-translate-y-2 hover:border-[#ff6b2c]/30  hover:shadow-[0_10px_20px_#ff6b2c]"
+              className="group flex h-full flex-col rounded-[30px] border border-white/5  bg-background/40 p-8 backdrop-blur-4xl shadow-[0_5px_10px_rgba(255,107,44,0.5)] transition-all duration-500 hover:-translate-y-2 hover:border-[#ff6b2c]/30  hover:shadow-[0_10px_20px_#ff6b2c]"
             >
 
               {/* LEFT */}

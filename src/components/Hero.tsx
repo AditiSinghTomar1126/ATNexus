@@ -213,19 +213,31 @@ export default function Hero() {
 
   {/* CTA */}
 
+
   <div className=" mb-28 mt-5 md:my-16 flex justify-center lg:justify-start">
+    <div className="flex justify-center md:justify-start mr-4"> 
+          <a href="/contact"
+        
+        className="rounded-2xl border border-light/20 bg-background/60 px-4 pr-28 py-3 text-sm text-light/70 backdrop-blur transition hover:border-primary "
+      >
+      Share Your Vision With Us.
+      </a>
+
+</div>
 
     <Link
       href="/contact"
-      className="inline-flex items-center gap-2 rounded-lg bg-primary px-8 py-3 text-md font-semibold text-white shadow-[0_0_20px_rgba(254,66,77,0.35)] transition-all hover:scale-105"
+      className="inline-flex items-center gap-2 rounded-lg bg-primary px-8 py-3 text-sm font-semibold text-white shadow-[0_0_20px_rgba(254,66,77,0.35)] transition-all hover:scale-105"
     >
-      Start a Project
+      Start 
 
       <ArrowRight size={18} />
 
     </Link>
+    
 
-  </div>
+ </div>
+ 
 
   {/* Trust Badges */}
 

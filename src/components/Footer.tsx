@@ -26,8 +26,8 @@ const footerColumns = [
   {
     title: "Contact",
     links: [
-      { label: "Start a Project", href: "/contact" },
-      { label: "E-Mail us directly", href: "/contact" }  ,  
+      { label: "Chat with us", href: "https://wa.me/919762117170" },
+      { label: "E-Mail us ", href: "mailto:tech.atnexus@gmail.com" }  ,  
       { label: "Book a Call", href: "/contact" }  ,
       { label: "Get a quote", href: "/contact" }  ,
       
@@ -55,9 +55,9 @@ export default function Footer() {
 
             <a
               href="mailto:tech.atnexus@gmail.com"
-              className="-mt-10  flex items-center gap-2 text-sm text-light/80 hover:text-primary"
+              className="-mt-16  flex items-center gap-2 text-xl text-light/80 hover:text-primary"
             >
-              <Mail size={16} />
+              <Mail size={18} />
              tech.atnexus@gmail.com
             </a>
           </div>

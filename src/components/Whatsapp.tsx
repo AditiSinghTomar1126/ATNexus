@@ -7,7 +7,7 @@ export default function FloatingWhatsApp() {
     <>
       {/* Desktop */}
       <a
-        href="https://wa.me/919762117170"
+       href="https://wa.me/919762117170?text=Hi%20ATNexus!%20%F0%9F%91%8B%0A%0AI'm%20interested%20in%20your%20services%20and%20would%20like%20to%20discuss%20my%20project.%0A%0ALooking%20forward%20to%20hearing%20from%20you."
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
@@ -24,7 +24,7 @@ export default function FloatingWhatsApp() {
 
       {/* Mobile */}
       <a
-        href="https://wa.me/919762117170"
+        href="https://wa.me/919762117170?text=Hi%20ATNexus!%20%F0%9F%9AI'm%20interested%20in%20your%20services%20and%20would%20like%20to%20discuss%20my%20project.%0A%0ALooking%20forward%20to%20hearing%20from%20you."
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
